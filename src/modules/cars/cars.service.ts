@@ -12,10 +12,10 @@ export class CarsService {
     return car;
   }
 
-  update(id: string, props: UpdateCarDto): Car {
+  update(id: string, updateCarDto: UpdateCarDto): Car {
     const existing = dataStore.cars.get(id);
     if (!existing) throw new Error('Car not found');
-    const updated = { ...existing, ...props };
+    const updated = { ...existing, ...updateCarDto };
     dataStore.cars.set(id, updated);
     return updated;
   }
