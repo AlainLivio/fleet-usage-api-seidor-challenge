@@ -39,18 +39,21 @@ docker-compose up --build
 
 ## Endpoints
 
+### Cars
 - POST /cars
 - GET /cars
 - GET /cars/:id
 - PUT /cars/:id
 - DELETE /cars/:id
-
+- 
+### Drivers
 - POST /drivers
 - GET /drivers
 - GET /drivers/:id
 - PUT /drivers/:id
 - DELETE /drivers/:id
 
+### Usages
 - POST /usages
 - POST /usages/:id/finish
 - GET /usages
