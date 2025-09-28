@@ -89,3 +89,4 @@ Enquanto esse endpoint **não for chamado**, o carro e o motorista continuarão 
 Portanto:
 - **Use `/usages/:id/finish`** para encerrar uma utilização.
 - Após a finalização, o carro e o motorista estarão disponíveis novamente para novos usos.
+
