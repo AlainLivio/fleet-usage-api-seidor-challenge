@@ -68,7 +68,7 @@ Foi criada uma **Postman Collection** para facilitar o uso e testes dos endpoint
 
 ### Como usar:
 
-1. Importe o arquivo `fleet_usage_api-Seidor_Challenge.postman_collection.json` no Postman.
+1. Importe o arquivo `fleet_usage_api-Seidor_Challenge.postman_collection` no Postman.
 2. A collection inclui requisições organizadas para os endpoints de:
    - **Cars**
    - **Drivers**
