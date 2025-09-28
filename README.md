@@ -48,7 +48,7 @@ docker-compose up --build
 - GET /cars/:id
 - PUT /cars/:id
 - DELETE /cars/:id
-- 
+
 ### Drivers
 - POST /drivers
 - GET /drivers
