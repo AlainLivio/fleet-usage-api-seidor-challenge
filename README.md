@@ -42,6 +42,7 @@ docker-compose up --build
 ### Cars
 - POST /cars
 - GET /cars
+- GET /cars?color=:color&brand=:brand
 - GET /cars/:id
 - PUT /cars/:id
 - DELETE /cars/:id
@@ -49,6 +50,7 @@ docker-compose up --build
 ### Drivers
 - POST /drivers
 - GET /drivers
+- GET /drivers?name=:name
 - GET /drivers/:id
 - PUT /drivers/:id
 - DELETE /drivers/:id
@@ -60,6 +62,18 @@ docker-compose up --build
 
 Persistência em memória. Regras: um carro só pode ser usado por um motorista por vez; um motorista só pode usar um carro por vez.
 
+## Postman Collection
+
+Foi criada uma **Postman Collection** para facilitar o uso e testes dos endpoints da API.
+
+### Como usar:
+
+1. Importe o arquivo `fleet_usage_api-Seidor_Challenge.postman_collection.json` no Postman.
+2. A collection inclui requisições organizadas para os endpoints de:
+   - **Cars**
+   - **Drivers**
+   - **Usages**
+3. Certifique-se de que a API está rodando (por padrão em `http://localhost:3000`) antes de executar as requisições.
 
 ### Observações importantes sobre regras de negócio
 
