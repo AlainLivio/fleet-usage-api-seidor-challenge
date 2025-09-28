@@ -60,8 +60,6 @@ docker-compose up --build
 - POST /usages/:id/finish
 - GET /usages
 
-Persistência em memória. Regras: um carro só pode ser usado por um motorista por vez; um motorista só pode usar um carro por vez.
-
 ## Postman Collection
 
 Foi criada uma **Postman Collection** para facilitar o uso e testes dos endpoints da API.
@@ -79,6 +77,7 @@ Foi criada uma **Postman Collection** para facilitar o uso e testes dos endpoint
 
 Para garantir o cumprimento da regra de negócio:
 
+> Persistência em memória.
 > Um automóvel só pode ser utilizado por um motorista por vez.  
 > Um motorista que já esteja utilizando um automóvel não pode utilizar outro ao mesmo tempo.
 
