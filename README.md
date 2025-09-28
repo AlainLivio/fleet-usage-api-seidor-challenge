@@ -2,6 +2,8 @@
 
 Projeto implementado com NestJS + TypeScript. Embora o enunciado sugira o uso do Express, se optou pelo NestJS, que utiliza o Express internamente como servidor HTTP padrão. Assim, o NestJS oferece toda a robustez do Express, junto com uma estrutura modular, suporte nativo a TypeScript e injeção de dependências, facilitando o desenvolvimento e a manutenção do projeto.
 
+A lógica da aplicação foi implementada utilizando persistência em memória, garantindo simplicidade para simular o comportamento de armazenamento de dados sem dependência de um banco externo.
+
 ## Como usar
 
 1. Instalar dependências:
