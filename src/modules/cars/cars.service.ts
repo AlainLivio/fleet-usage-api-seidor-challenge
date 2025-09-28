@@ -34,8 +34,8 @@ export class CarsService {
   list(filter?: { color?: string; brand?: string }): Car[] {
     const carsList = Array.from(dataStore.cars.values());
     return carsList.filter(car => {
-      if (filter?.color && car.color !== filter.color) return false;
-      if (filter?.brand && car.brand !== filter.brand) return false;
+      if (filter?.color && car.color.toLocaleLowerCase() !== filter.color.toLocaleLowerCase()) return false;
+      if (filter?.brand && car.brand.toLocaleLowerCase() !== filter.brand.toLocaleLowerCase()) return false;
       return true;
     });
   }
